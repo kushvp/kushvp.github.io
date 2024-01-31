@@ -1,0 +1,44 @@
+html,body{
+	width:100%;
+  height:100%;
+	margin:0;
+	background: #fff;
+	color: #333;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 1.4em;
+}
+#header, #content, #footer{
+	width: 100%;
+	max-width: 720px;
+	margin:0 auto;
+}
+strong, b{
+	font-weight: bold;
+}
+a{
+	color: #ff4040;
+	position: relative;
+	top:0px;
+	transition: 0.1s ease-in-out;
+}
+a:hover{
+	color: #ff7575;
+	top: -2px;
+}
+#content{
+  border: 4px solid;
+  border-radius: 12px;
+  padding: 0 4px;
+}
+@media(max-width: 768px){
+	#header, #content, #footer{
+		width: 95%;
+	}
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
