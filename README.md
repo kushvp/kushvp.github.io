@@ -1,5 +1,4 @@
 ## Welcome to my website
 This website is hoisted at [kushvp.github.io](https://kushvp.github.io/).
 
-This is licensed under CC01 (Creative Common License). 
-Feel free to use this code as reference for creating your website.
+All my code is freely available under [MIT License](https://opensource.org/license/mit/) so feel free to take inspiration from it 😉 reuse it...
